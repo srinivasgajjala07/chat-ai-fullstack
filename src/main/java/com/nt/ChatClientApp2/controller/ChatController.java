@@ -17,7 +17,7 @@ import okhttp3.Response;
 
 @RestController
 @RequestMapping("/chat")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin
 public class ChatController {
 
     @Value("${groq.api.key}")
